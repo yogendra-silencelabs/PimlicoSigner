@@ -1,0 +1,32 @@
+{
+  "name": "pimlico-tutorial-template",
+  "version": "1.0.0",
+  "description": "A template repository for Pimlico tutorials (https://docs.pimlico.io/tutorial)",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ethereumjs/common": "^3.1.2",
+    "@ethereumjs/tx": "^4.1.2",
+    "@ethereumjs/util": "^8.0.5",
+    "@silencelaboratories/ecdsa-tss": "^1.1.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "libsodium-wrappers": "0.7.13",
+    "permissionless": "^0.1.19",
+    "prettier": "^3.3.2",
+    "qrcode-terminal": "^0.12.0",
+    "uuid": "^9.0.1",
+    "viem": "^2.17.2"
+  },
+  "devDependencies": {
+    "@types/libsodium-wrappers": "^0.7.14",
+    "@types/node": "^20.11.10",
+    "tsx": "^3.13.0"
+  }
+}
